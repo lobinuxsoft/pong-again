@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3c5fd4c5-8d15-4dae-b5c5-730913585ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\class">
+      <UniqueIdentifier>{5b43224e-88cb-4203-868f-0a26914fb573}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\class\Button.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\Entity.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\EntityCircle.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\EntityObj.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\EntityRectangle.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\class\EntityUI.cpp">
+      <Filter>src\class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\class\Entity.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class\Button.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class\EntityCircle.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class\EntityObj.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class\EntityRectangle.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\class\EntityUI.h">
+      <Filter>src\class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
